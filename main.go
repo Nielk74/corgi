@@ -1,9 +1,7 @@
 package main
 
-import (
-	"log"
-)
+import "corgi/cmd"
 
 func main() {
-	log.Print("Hello world")
+	cmd.Execute()
 }
